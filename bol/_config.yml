@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://liyunpeng333.github.io/jsframebol/bol/
+url: https://liyunpeng333.github.io/jsframebol/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -67,5 +67,6 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: https://github.com/liyunpeng333/jsframebol.git
+  type: git
+  branch: master
