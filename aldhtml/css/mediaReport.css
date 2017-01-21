@@ -1,0 +1,27 @@
+.mediaRTitle{
+    width: 100%;
+}
+.mediaRTitle img{
+    width: 100%;
+}
+.ReportNews{
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    background-color: #f1f1f1;
+}
+
+
+
+.navMenu > li.indexNav,.toolsNav,.aboutUsNav,.joinUsNav{
+    background-color: #20303e;
+}
+.navMenu > li.indexNav > a{
+    color:#666;
+}
+.mediaReportNav{
+    background-color: #1a2632 !important;
+}
+.mediaReportNav a{
+    color:#fff !important;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>抽奖</title>
+  <meta charset="utf-8"/>
+
+
+  <style>
+    html,body{
+      width: 100%;
+      height:100%;
+      padding: 0;
+      margin: 0;
+      font-family: "Microsoft YaHei" !important;
+    }
+    .nav{
+      width: 100%;
+      height:75px;
+      background-color: #000;
+      text-align: center;
+      line-height:75px;
+    }
+    .nav .luckDrawTitle{
+      font-size: 18px;
+      color:#fff;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      position: absolute;
+      text-align: center;
+    }
+    .luckDrawlogo{
+      float: left;
+    }
+    .luckDrawlogo img{
+      vertical-align: middle;
+    }
+    .w{
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+    }
+    .luckContainer{
+      width: 100%;
+      height:100%;
+      background-color: #173e53;
+      background-size: 100% 100%;
+      position: relative;
+      overflow: hidden;
+      margin-top: -5px;;
+    }
+    .luckcover{
+      background-color: #eaeced;
+      border: 8px solid #bac6cc;
+      border-radius: 20px;
+      margin: 0 auto;
+      font-size:100px;
+      overflow: hidden;
+      padding: 10px;
+      width: 700px;
+      height: 130px;
+      position: relative;
+      z-index: 999;
+    }
+    .luckCoverF{
+      text-align: center;
+      margin: 15% auto 0;
+      position: relative;
+      z-index: 2;
+    }
+    .luckCoverF .btnluck{
+      width: 400px;
+      cursor: pointer;
+    }
+    .split{
+      width: 100%;
+      height:1px;
+    }
+    .backImg{
+      height: 100%;
+      width: 100%;
+      background: url("img/1.gif");
+      background-size: 110% 110%;
+      position: absolute;
+      top:0;
+      left: 0;
+      z-index: 1;
+    }
+    .luckDrawTitle{
+      position: absolute;
+      top:15%;
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      z-index: 19;
+      color:#fff;
+      font-size: 60px;;
+    }
+    .luckbtn{
+      margin-top:50px;
+    }
+    .aldLegends{
+      position: absolute;
+      z-index: 9999;
+      top: 126px;
+      right: 98px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="w">
+      <div class="luckDrawlogo">
+        <a href="index.html">  <img src="img/logo.gif" alt="阿拉丁"/></a>
+      </div>
+    </div>
+  </nav>
+  <h1 class="luckDrawTitle"><span>微信小程序创新论坛抽奖环节</span></h1>
+
+  <div class="luckContainer">
+    <div class="backImg"></div>
+    <div class="split"></div>
+    <div class="luckCoverF">
+      <div class="luckcover">
+        <span>139xxxx7829</span>
+      </div>
+      <div class="luckbtn"><img class="btnluck" src="img/btnluck.png" alt="阿拉丁"/></div>
+      <img class="aldLegends" src="img/alding.png" alt="阿拉丁"/>
+    </div>
+  </div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script>
+    $(function(){
+        var arr =[
+            "137xxxx3734",
+            "137xxxx4689",
+            "137xxxx5252",
+            "152xxxx5662",
+            "183xxxx1209",
+            "186xxxx0933",
+            "186xxxx2531",
+            "135xxxx0523",
+            "137xxxx5231",
+            "186xxxx8543",
+            "152xxxx1928",
+            "152xxxx8724",
+            "182xxxx2134",
+            "150xxxx4316",
+            "150xxxx7389",
+            "183xxxx8702",
+            "138xxxx3428",
+            "139xxxx7829",
+            "182xxxx1209",
+            "139xxxx5623",
+            "186xxxx0933",
+            "156xxxx3759",
+            "183xxxx1081",
+            "139xxxx2011",
+            "139xxxx7982",
+            "152xxxx5523",
+            "158xxxx7212",
+            "139xxxx2784",
+            "152xxxx2778",
+            "138xxxx4131",
+            "182xxxx4892",
+            "188xxxx8723",
+            "137xxxx0923",
+            "137xxxx8723",
+            "152xxxx7481",
+            "150xxxx4198",
+            "136xxxx3912",
+            "139xxxx2011",
+            "139xxxx7392",
+            "150xxxx2475",
+            "150xxxx9204",
+            "137xxxx8721",
+            "138xxxx3092",
+            "137xxxx2983",
+            "150xxxx3943",
+            "156xxxx7100",
+            "183xxxx8722",
+            "137xxxx1343"
+        ];
+      var timer;
+      var j = 1;
+      var i =0;
+      function start(){
+        i++;
+        if(i == arr.length){
+          i = 0;
+        }
+        $(".luckcover span").html(arr[i]);
+        console.log(i);
+      }
+      $(".btnluck").click(function(){
+        j++;
+        if(j%2==0){
+          $(this).attr("src","img/stopbtn.png");
+
+        timer = setInterval(start,50);
+        }else{
+          $(this).attr("src","img/btnluck.png");
+          clearInterval(timer);
+          i =0 ;
+
+          //停止循环后，加入数据   code：$(".luckcover span").html(arr[i]);
+
+        }
+      });
+
+
+
+
+//        $(".btnluck").click(function(){
+//          function uptel(){
+//            i++;
+//            $(".luckcover span").html(arr[i]);
+//          }
+//           timer = setInterval(uptel,50)
+//        });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,282 @@
+/*banner*/
+.banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height:400px;
+}
+.slider {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.slider > li {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.slider > li > img{
+    width: 100%;
+    height: auto;
+}
+.button {
+    position: absolute;
+    top:120px;
+    margin: 10px auto;
+}
+
+.indexFirstText{
+    width: 55%;
+    left: 7.5%;
+    position: absolute;
+    top:0;
+    overflow: hidden;
+    margin-left:0;
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.indexFirstText > h1{
+    font-family: "Microsoft YaHei";
+    text-align: left;
+    font-size: 35px;
+    color:#fff;
+    height:45px;
+}
+.indexFirstText > h1 > span{
+    float: left;
+    position: relative;
+
+}
+.indexFirstText > h1 > span > b{
+    width: 80px;
+    height:40px;
+    background: url("../img/oneCorner.png")0 0 no-repeat;
+    display: inline-block;
+    margin-left: 15px;
+    position: absolute;
+    right:-88px;
+    top:0
+}
+
+.indexFirstText > h2{
+    font-family: "Microsoft YaHei";
+    font-size: 22px;
+    text-align: left;
+    color:#fff;
+    margin-top: 0;
+    line-height: 30px;
+    font-weight: 400;
+}
+.indexFirstText > h3{
+    font-family: "Microsoft YaHei", 微软雅黑;
+    width: 100px;
+    height:30px;
+    border:1px solid #fff;
+    border-radius: 30px;
+    line-height: 26px;
+    text-align: center;
+}
+.indexFirstText > h3 >a{
+    color:#fff;
+}
+.dian{
+    position: absolute;
+    background: 30px;
+    width: 100%;
+    height:30px;
+    bottom: 20px;
+    text-align: center;
+}
+.dian > a{
+    display: inline-block;
+    width: 15px;
+    height:15px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+/*banner结束*/
+
+
+/*Wo们的服务*/
+.serviceModular{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 360px;
+    float: left;
+}
+.serviceTitle{
+    width: 100%;
+    height:50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 33px;
+}
+.serviceTitle a{
+    color:#666666;
+    padding-bottom: 5px;
+    border-bottom:3px solid #26bfe2;
+    cursor: default;
+}
+
+.orallyBox{
+    width: 90%;
+    margin:30px auto 0;
+
+}
+.orallyBox > li{
+    float: left;
+    width: 15%;
+    margin: 0 5%;
+}
+.orally{
+    text-align: center;
+}
+.orally img{
+    width: 100%;
+}
+.orally h3{
+    color:#666;
+    font-size: 20px;
+}
+/*Wo们的服务结束*/
+
+/*阿拉丁故事*/
+.aldStory{
+    background-color: #26bfe2;
+    width: 100%;
+    height: 430px;
+    float: left;
+
+    text-align: center;
+    font-size:48px;
+    color:#fff;
+}
+.aldStory > .w > div{
+    height: 430px;
+    line-height: 430px;
+}
+/*阿拉丁故事结束*/
+
+/*top10*/
+.topTen{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 40px;
+    border-bottom:1px solid #ddd;
+    float: left;
+}
+
+.mediaTen{
+    float: left;
+    width: 45%;
+}
+.mediaTen > h1,.postTen > h1{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#666;
+    font-weight: 700;
+}
+.mediaTen > h1 > a,.postTen > h1 > a{
+    color: #666666;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #26bfe2;
+}
+
+.mediaBoxTen,.postBoxTen{
+    width: 100%;
+    list-style-image:url("../img/i.png");
+    height:180px;
+}
+.mediaBoxTen > li,.postBoxTen >li{
+    padding: 5px 0;
+}
+.mediaBoxTen > li >a,.postBoxTen >li > a{
+    font-size: 16px;
+}
+.mediaBoxTen > li > b,.postBoxTen > li > b{
+    float: right;
+    color:#999;
+    font-size: 18px;
+    font-weight: 400;
+}
+.mediaBoxTen i{
+    background: url("../img/i.png");
+}
+.mediaBoxTen a:hover,.postBoxTen a:hover{
+    color:#26bfe2;
+}
+.postTen{
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+/*top10结束*/
+
+
+/*合作伙伴*/
+.partner{
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+.partnerTitle{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 60px;
+}
+.partnerTitle > a{
+    color: #666666;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #26bfe2;
+}
+.partnerBox{
+    width: 100%;
+}
+.partnerBox > li{
+    float: left;
+    width: 12%;
+    margin: 2.333%;
+}
+.partnerBox > li > img{
+    width: 100%;
+}
+/*合作伙伴结束*/
+
+
+
+
+
+/*导航相关*/
+/*.toolsNav,.mediaReportNav,.aboutUsNav,.joinUsNav{*/
+    /*background-color: #20303e;*/
+/*}*/
+.indexNav{
+    background-color: #1a2632;
+}
+.navMenu .indexNav a{
+    color:#fff;
+}
+/*导航相关结束*/
+
+.sucaihuo {
+    width: 100%;
+}
+.sucaihuo ul {
+    width: 100%;
+}
+.sucaihuo ul > .bannerLi {
+    width: 100%;
+}
+.sucaihuo ul > .bannerLi > .bannerImg{
+    width: 100%;
+}
