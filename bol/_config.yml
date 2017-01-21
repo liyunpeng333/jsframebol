@@ -67,6 +67,6 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: https://github.com/liyunpeng333/jsframebol.git 
+deploy: https://github.com/liyunpeng333/jsframebol.git
   type: git
-  branch: master
+  branch: master 
