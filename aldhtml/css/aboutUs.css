@@ -1,0 +1,71 @@
+.aboutUsTitle{
+    width: 100%;
+}
+.aboutUsTitle img{
+    width: 100%;
+}
+.aboutUsContainer{
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+.aboutUsText,.myTeam{
+    width: 100%;
+}
+.aboutUsText > h1,.myTeam > h1{
+    width: 100%;
+    font-size: 25px;
+}
+.aboutUsText > h1 >b,.myTeam > h1 > b{
+    font-weight: 400;
+    color: #666666;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #26bfe2;
+}
+.aboutUsText > h2{
+    color:#666;
+    line-height: 33px;
+    text-indent:2em;
+}
+.headBox{
+    width: 100%;
+    float: left;
+   margin: 30px 0 ;
+}
+.headBox > li{
+    float: left;
+    width: 16%;
+    margin-left: 5%;
+}
+.headBox > li:first-child{
+    margin-left:0;
+}
+.headBox > li > div{
+    width: 100%;
+    text-align: center;
+}
+.headBox > li > div > img{
+    width: 100%;
+}
+.headBox > li > div > h2{
+    margin: 0;
+}
+.myTeamText{
+    margin-bottom: 50px;
+}
+
+/*导航相关*/
+.navMenu > li.indexNav,.mediaReportNav,.toolsNav,.joinUsNav{
+    background-color: #20303e;
+}
+.navMenu > li.indexNav > a{
+    color:#666;
+}
+.aboutUsNav{
+    background-color: #1a2632 !important;
+}
+.aboutUsNav a{
+    color:#fff !important;
+}
+/*导航相关结束*/

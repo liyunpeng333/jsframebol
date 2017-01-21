@@ -1,0 +1,219 @@
+body{
+    min-width: 990px;
+}
+.w{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.w100{
+    width: 100%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.cursorDefault{
+    cursor: default;
+}
+.myhide{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+html,body,li,a{
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+}
+html,body{
+    font-family: "Microsoft YaHei" !important;
+}
+/*ͨ��ͷ*/
+header{
+    width: 100%;
+    height:75px;
+    background-color: #243645;
+}
+.header{
+    width:85% !important;
+    height:75px !important;
+    line-height: 75px !important;
+    padding: 0px !important;
+}
+.logo,.heaText,.signIn{
+    float: left;
+}
+.heaText{
+    margin-left:5%;
+}
+.heaText img{
+    width: 90%;
+}
+
+.wxLand{
+    height:35px;
+    border-radius:30px;
+    margin-top:17.5px;
+    line-height: 35px;
+    text-align: center;
+    padding: 0 10px;
+    float: right;
+}
+.signBeforeOut{
+    border:1px solid #999;
+}
+.wxLand img,.wxLand a{
+    display: inline-block;
+    color:#aaa;
+    margin: 0 3px;
+}
+.wxLand img{
+    margin-top: -2px;
+}
+.wxLand b{
+    color:#aaaaaa;
+}
+.wxLand span{
+    color:#aaaaaa;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.wxLand{
+   margin: 32px 0px 0;
+}
+.signIn b{
+    font-weight: 400;
+}
+.signIn > a{
+    margin: 0;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #aaaaaa;
+    display: inline;
+}
+.hoverColoer a{
+    color: #fff !important;
+}
+.hoverColoer b{
+    color: #fff !important;
+}
+
+.wxLand a:hover{
+	color:#fff !important;
+}
+/* nav */
+nav{
+    width: 100%;
+    height:56px;
+    background-color: #20303e;
+    line-height: 56px;
+}
+.navMenu{
+    height: 56px;
+    overflow: hidden;
+    padding: 0;
+}
+.navMenu li{
+    float: left;
+    cursor: pointer;
+}
+.navMenu > li > a{
+    font-size: 16px;
+    padding:10px 20px;
+    color:#aaa;
+}
+.navMenu > li.active{
+    background-color: #1a2632 !important;
+}
+.navMenu > li.active > a{
+    color:#fff;
+}
+/* nav���� */
+
+/* ����*/
+.navBox{
+    position: relative;
+}
+.earth{
+    position: absolute;
+    top:0;
+    right: 5%;
+    z-index: 999;
+}
+.earth img{
+    width: 82%;
+}
+/* �������*/
+/*ͨ��ͷ����*/
+
+/*ͨ��β*/
+/*ҳ��*/
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #243645;
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+}
+.footLeft,.footNav,.footNav > li{
+    float: left;
+}
+.footNav{
+    margin: 10% 0 4%;
+    width: 100%;
+}
+.footNav > li > a{
+    font-size: 14px;
+    color:#929ba2;
+}
+.footNav > li > b{
+    padding: 0 10px;
+    color:#929ba2;
+}
+.footNav li a:hover{
+    color:#fff;
+}
+.footLeft > h3{
+    color:#929ba2;
+}
+.footRight{
+    float: right;
+}
+.footLogo > h3{
+    color:#929ba2;
+    margin-top: 14px;
+}
+.footLogo{
+    margin-top: 44px;
+    float: left;
+    text-align: right;
+}
+.footSs{
+    margin-top: 56px;
+    float: left;
+    margin-left: 24px;
+}
+.footSs img{
+    width: 88%;
+}
+.footLeft > h3,.footLogo > h3{
+    font-size: 14px;
+}
+/*ҳ�Ž���*/
+/*ͨ��β����*/
+
+

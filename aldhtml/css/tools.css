@@ -1,0 +1,450 @@
+.toolsContainer{
+    width: 100%;
+}
+.split{
+    width: 100%;
+    height: 1px;
+    background-color:rbga(255,255,255,0);
+}
+.toolsBanner{
+    background: url("../img/toolBanner.jpg")0 0 no-repeat;
+    background-size:100%  100%;
+    width: 100%;
+    text-align: center;
+    /*padding: 20% 0;*/
+}
+/*.toolsFocus{*/
+    /*width: 100%;*/
+    /*text-align: center;*/
+    /*padding: 35px 0 ;*/
+    /*height:400px;*/
+/*}*/
+.toolsFocus > p {
+    width: 100%;
+    text-align: center;
+}
+.toolsFocus > p > img{
+   max-width: 100%;
+}
+.toolsFocus > h1{
+    font-size: 30px;
+    color:#fff;
+}
+.toolsFocus > h2{
+    font-size: 16px;
+    color:#fff;
+}
+.DemoContainer{
+    width: 100%;
+    text-align: center;
+    margin-top:35px;
+}
+.DemoContainer > p{
+    font-family: "Microsoft YaHei", 微软雅黑;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    line-height: 26px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.DemoContainer > p > a{
+    color:#fff;
+    font-size: 16px;
+}
+.toolsGround{
+    width: 100%;
+    float: left;
+    background-color: #f1f1f1;
+    padding: 45px 0;
+}
+.toolsGText{
+    width: 100%;
+    text-align: center;
+}
+.toolsGText > h1{
+    font-size: 24px;
+    color:#666;
+    padding-top:0;
+    margin-top: 0;
+}
+.toolsGText > h2{
+    color:#666;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.orallyBox{
+    width: 75%;
+    margin:30px auto 0;
+
+}
+.orallyBox > li{
+    float: left;
+    width: 15%;
+    margin: 0 5%;
+}
+.orally{
+    text-align: center;
+}
+.orally img{
+    width: 100%;
+}
+.orally h3{
+    color:#666;
+    font-size: 20px;
+}
+.analysisBox{
+    width: 100%;
+    float: left;
+
+}
+.analysisOne,.analysisTwo{
+    width: 100%;
+    padding:50px 0;
+    background-color: #fff;
+    float: left;
+}
+.analysisTwo{
+    background-color: #f1f1f1;
+}
+.analysisOne > .w > div,.analysisTwo > .w > div{
+    width: 50%;
+}
+.analysisImg img{
+    width: 100%;
+}
+.analysisOne .analysisText{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.analysisTwo .analysisText{
+    text-align: left;
+    padding-top: 8%;
+    padding-right: 10%;
+}
+.analysisText > h1{
+    font-size: 30px;
+    color:#666;
+}
+.analysisText > h2{
+    font-size: 18px;
+    color:#999;
+}
+
+
+/*导航相关*/
+.navMenu > li.indexNav,.mediaReportNav,.aboutUsNav,.joinUsNav{
+    background-color: #20303e;
+}
+.navMenu > li.indexNav > a{
+    color:#666;
+}
+.toolsNav{
+    background-color: #1a2632 !important;
+}
+.toolsNav a{
+    color:#fff !important;
+}
+/*导航相关结束*/
+
+/*1.3*/
+.toolsContainer{
+    color:#fff;
+}
+.toolsBanner_text{
+    padding: 11% 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.toolsText{
+    height: 80px;
+    line-height: 80px;
+}
+.toolsText img{
+    max-width: 90%;
+    margin-top: -30px;
+}
+.newsslogn2{
+    font-size:54px;
+}
+.toolsBanner_text h3{
+    font-size:18px;
+    font-weight:500;
+    margin-top: 30px;
+}
+.toolsfun{
+
+}
+.toolsfun li{
+    height:50px;
+    line-height: 50px;
+}
+.toolsfun li a {
+    margin: 0 10px;
+    border:1px solid #fff;
+    border-radius: 20px;
+    padding: 7px 23px;
+    color:#fff;
+}
+.toolsfun li a.toolsthis{
+    background-color: #26bfe2;
+    border: none;
+    padding: 8px 24px;
+}
+.toolsId{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 70px;
+}
+.toolsId ul{
+    float: left;
+    margin-top: 30px;
+}
+.toolsId ul > li {
+    float: left;
+    margin-right:40px;
+    height: 30px;
+    font-size:16px;
+    border-bottom: 3px solid #fff;
+    cursor: pointer;
+}
+.toolsId ul > li.thisLi{
+    border-bottom: 3px solid #26bfe2;
+}
+.toolsId ul > li a{
+    font-weight:600;
+    color:#666666;
+}
+.toolsIdnav{
+    float: left;
+    margin-top: 30px;
+}
+.product{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.product> h2{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    font-size:24px;
+    color:#666;
+    font-weight:600;
+}
+.productCont{
+    float: left;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.productCont ul{
+    width:100%;
+    float: left;
+}
+.productCont ul li{
+    float: left;
+    width:22%;
+    margin-right: 4%;
+    text-align: center;
+}
+.productCont ul li:last-child{
+    margin-right: 0;
+}
+.productCont ul li > div{
+    width: 160px;
+    height: 160px;
+    border: 5px solid #26bfe2;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.productCont ul li > div >b{
+    font-size:36px;
+    color:#26bfe2;
+    margin-top: 22%;
+    display: inline-block;
+}
+.productCont ul li > div > p{
+    font-size:14px;
+    color:#26bfe2;
+}
+.system{
+    width: 100%;
+    background-color: #26bfe2;
+    float: left;
+}
+.systemCont{
+    float: left;
+    width: 100%;
+    margin: 7% auto;
+}
+.systemCont > h2{
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.systemCont ul{
+    width: 80%;
+    margin: 0 auto;
+}
+.systemCont ul li{
+    width: 33.33%;
+    float: left;
+    border-left:1px solid #93dff1;
+}
+.systemCont ul li:first-child{
+    border-left:none;
+}
+.systemCont ul li>div{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.systemCont ul li> div > span{
+    font-size:24px;
+    font-weight:600;
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    top:8px;
+}
+.systemCont ul li>div > div{
+    margin-top: 10px;
+}
+.access{
+    width: 100%;
+    float: left;
+    margin: 6% 0;
+}
+.accessCont{
+    width: 80%;
+    margin: 0 auto;
+}
+.accessCont > h2{
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    color:#666;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 0;
+    font-weight:600;
+}
+.accessCont ul{
+    float: left;
+    width: 100%;
+}
+.accessCont ul >li {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+.accessCont ul >li>div{
+    position: absolute;
+    width: 150px;
+    top:20px;
+    left: 75px;
+    color:#666;
+}
+.accessCont ul>li img{
+    max-width: 100%;
+}
+.erice{
+    float: left;
+    margin-bottom: 80px;
+}
+.ericeCont{
+    width: 80%;
+    margin: 0 auto;
+}
+.ericeCont h2{
+    text-align: left;
+    color:#666;
+    font-weight:600;
+    margin-bottom: 40px;
+}
+.ericeCont ul{
+    float: left;
+    width: 100%;
+}
+.ericeCont ul >li{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+}
+.ericeCont ul >li:first-child{
+    margin-left: 0;
+}
+.ericeCont ul >li>div{
+    width: 100%;
+}
+.ericeSey{
+    width: 100%;
+    height: 105px;
+    background: url("../img/toolsH.png")0 0 no-repeat;
+    background-size:100% 100%;
+    color:#666;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+.ericePeople{
+    width: 100%;
+    float: left;
+}
+.ericePeople img{
+    float: left;
+    border-radius: 50%;
+}
+.ericePeople p{
+    float: left;
+    color:#666;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+.ericePeople p b{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.scrollUL{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    left:0;
+    height: 80px;
+    margin: 0;
+    z-index: 9999999;
+}
+.scrollUL ul{
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+.toolsId .toolsnavbar a{
+    margin: 0 10px;
+    border:1px solid #666;
+    border-radius: 20px;
+    padding: 7px 23px;
+    color:#666;
+    font-weight:400;
+}
+.toolsId .toolsnavbar .toolsthis{
+    background-color: #93dff1;
+    color:#fff;
+    border: none;
+    padding: 8px 24px;
+}
+/*1.3end*/
